@@ -47,6 +47,10 @@ Organization
     (HTML, PDF, etc)
     foot notes may actually be end-notes.
 
+  - Where footnotes are placed is subjective, since output is not always paged.
+    In general, place footnotes near refering content early in authoring;
+    we can and possibly will move them as we refine and edit documentation.
+
 * TBD/TODO items:
   mark sections or chapters in progress with disclaimers
   at the beginning of the section or chapter:
@@ -203,14 +207,20 @@ Formatting
   but must be exported to CSV format and have a title row for each column.
 
 * We aim to write content appropriate for output to multiple formats:
+
   - Some may be paged (PDF).
+
   - Some may not be (HTML).
+
   - Some may be artificially paged at arbitrary boundaries (ePub).
 
 * Try to keep plain-text (or reStructuredText) to <79 characters per line;
   this makes using preview easier in tools supporting it.
-  - **When possible, use semantic line breaks**, as described
+
+  - **When possible, use semantic line breaks**,
+    as described
     `here <http://rhodesmill.org/brandon/2012/one-sentence-per-line/>`_.
+
   - There are exceptions to this rule, esp. for lines containing hyperlinks.
 
 * *Italicize example text*, which may also be in quotation marks.
@@ -218,27 +228,34 @@ Formatting
 .. _formatting-headings:
 
 * **Formatting Heading Levels:**
+
   - Restructured text supports multiple levels of headings,
-    which should be used as follows:
+    which should be used as follows,
+    consistent with Plone.org documentation [1]_:
 
-.. code-block:: rst
+    .. code-block:: rst
 
-    ===============================
-    Heading 1: Document Title, etc.
-    ===============================
-    ...
+        ===============================
+        Heading 1: Document Title, etc.
+        ===============================
+        ...
 
-    Heading 2: Section Heading
-    --------------------------
-    ...
+        Heading 2: Section Heading
+        --------------------------
+        ...
 
-    Heading 3
-    ^^^^^^^^^
-    ...
+        Heading 3
+        ^^^^^^^^^
+        ...
 
-    Heading 4
-    `````````
-    ...
+        Heading 4
+        `````````
+        ...
+
+
+.. [1] Underlining style borrowed from Plone.org
+   `Documentation Style Guide <http://docs.plone.org/about/rst-styleguide.html>`_
+
 
 
 Source formats, file formats, and character sets
@@ -365,14 +382,14 @@ Copyright
 
 * End matter for documentation should include a succinct copyright statment:
 
-.. code-block:: rst
+    .. code-block:: rst
 
-    Copyright 2016, The University of Utah.
+        Copyright 2016, The University of Utah.
 
-    Licensed for free use and re-distribution under an MIT-style license,
-    which can be found here:
+        Licensed for free use and re-distribution under an MIT-style license,
+        which can be found here:
 
-    `<https://teamspace.upiq.org/trac/wiki/Copyright>`_
+        `<https://teamspace.upiq.org/trac/wiki/Copyright>`_
 
 * All documentation should be licensed under an MIT-style license, which can
   be referenced at a stable URL.
