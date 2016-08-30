@@ -1,8 +1,8 @@
-***********************************
-Guide to Editing Rich Text in Plone
-***********************************
+******************************************
+Guide to Editing Rich Text in QI TeamSpace
+******************************************
 
-*This guide describes editing rich text content in Plone,
+*This guide describes editing rich text content in QI TeamSpace,
 using what we term a "visual editor" --
 a tool that creates nice-looking, readable HTML
 for your TeamSpace site and projects.*
