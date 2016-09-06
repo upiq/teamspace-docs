@@ -94,47 +94,62 @@ What does this look like?
 * A compact button bar, with simple buttons to:
 
     .. image:: ../../images/screenshots/tinymce-button-bar.png
-
+  
   - Choose formats for selected text or paragraphs.
 
+    .. image:: ../../images/screenshots/tinymce-formats-expanded.png
+
   - Buttons to change weight (bold), emphasis (italic, underline),
-    foreground and background color of text.
+    foreground and background color of selected text.
 
-        .. image:: ../../images/screenshots/tinymce-basic-styling-buttons.png
+    .. image:: ../../images/screenshots/tinymce-basic-styling-buttons.png
 
-  - Buttons to change the justification of paragraphs in your text.
+  - Buttons to change the justification of paragraphs in your text:
 
-  - Buttons to insert bulleted or numbered lists of varying styles.
+    .. image:: ../../images/screenshots/tinymce-justification-buttons.png
+
+  - Buttons to insert bulleted or numbered lists of varying styles:
+
+    .. image:: ../../images/screenshots/tinymce-bullet-list-button.png
 
   - A drop-down button for inserting and managing tables.
 
-  - A button to insert/edit image details.
+    .. image:: ../../images/screenshots/tinymce-table-button-expanded.png
 
-    - When clicked without selection, a "insert image" box appears.
+  - Buttons to insert/edit images and hyperlinks:
 
-    - When clicked and an existing image is selected, you will see details
-      for that image.
+    .. image:: ../../images/screenshots/tinymce-buttons-image-and-links.png
 
-    - You can choose images from within the site (already uploaded),
-      or link to images on other sites by URL.
+    - A button to insert/edit image details
 
-        - **For convenience, this interface allows you to upload images.**
+      - When clicked without selection, a "insert image" box appears.
 
-  - Tools for editing links, anchors.
+      - When clicked and an existing image is selected, you will see details
+        for that image.
 
-    - You may link to internal content.
+      - You can choose images from within the site (already uploaded),
+        or link to images on other sites by URL.
 
-    - You may link to external content.
+          - **For convenience, this interface allows you to upload images.**
 
-    - You can choose whether links open in a new tab/window or the same
-      as your present window.
+      - Tools for editing hyperlinks to:
 
-    - You can use anchor and link features to manually create a nice table
-      of contents by linking to headings or anchors within a page
-      containing significant amounts of content.
+        - Internal content items within your project
+
+        - Internal page sections, headings, and anchors within a long page
+        
+          - *You can use anchor and link features to manually create*
+            *a nice table of contents by linking to headings or anchors*
+            *within a page containing significant amounts of content.*
+
+        - External web pages that may be opened in same or new window
+
+        - Email addresses ("mailto" links)
 
   - You may make the editing interface occupy the full window with the
     full-screen button.
+
+    .. image:: ../../images/screenshots/tinymce-button-fullscreen.png
 
   - In the edited text example you may see:
 
@@ -146,7 +161,6 @@ What does this look like?
 
     - An inserted image.
 
-      
 
 What are the limitations?
 -------------------------
